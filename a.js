@@ -9,7 +9,7 @@ $(window).ready(function () {
     
     var ajaxOPtion = {
         
-        url: '' + url_blog + "/feeds/posts/default?alt=json-in-script&max-results=" + num_post + '',
+        url: '' + url_blog + "/feeds/posts/default" + '',
         dataType: "jsonp",
         type: "get",
         success: function (data) {
